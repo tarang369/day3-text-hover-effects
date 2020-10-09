@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #34495e;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+}
+.btn {
+  width: 200px;
+  height: 70px;
+  font-size: 20px;
+  line-height: 70px;
+  text-align: center;
+  background-color: #1abc9c;
+  display: inline-block;
+  margin: 10% 0 0 8%;
+  cursor: pointer;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.effect1,
+.effect2,
+.effect3,
+.effect4 {
+  color: transparent;
+  transition: 0.3s all ease;
+}
+.effect1 {
+  text-shadow: 0 0 0 #fff, 0 45px 0 #000;
+}
+.effect2 {
+  text-shadow: 0 0 0 #fff, 0 -45px 0 #000;
+}
+.effect3 {
+  text-shadow: 0 0 0 #fff, 200px 0px 0 #000;
+}
+.effect4 {
+  text-shadow: 0 0 0 #fff, -200px 0px 0 #000;
+}
+
+.effect1:hover {
+  text-shadow: 0 -45px 0 #fff, 0 0 0 #000;
+}
+.effect2:hover {
+  text-shadow: 0 45px 0 #fff, 0 0 0 #000;
+}
+.effect3:hover {
+  text-shadow: -200px 0 0 #fff, 0 0px 0 #000;
+}
+.effect4:hover {
+  text-shadow: 200px 0 0 #fff, 0 0px 0 #000;
+}
